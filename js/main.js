@@ -13,7 +13,7 @@ function updatingTime(){
     let dateTime = date+' '+time;
     clock.innerHTML = dateTime;
 
-    if (today.getHours() > 5) {
+    if (today.getHours() > 18) {
         alert("Time for Stand up!")
     }
 
